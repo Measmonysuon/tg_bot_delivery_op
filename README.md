@@ -27,8 +27,7 @@ A Telegram bot designed to manage item inventory, enhancing workflow for system 
 
 2. Install Dependencies
 
-   pip install pyTelegramBotAPI requests
-   pip install telebot
+   pip install pyTelegramBotAPI requests​​ telebot
 
 4. Set Up Database
 
