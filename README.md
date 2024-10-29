@@ -79,21 +79,23 @@ A Telegram bot designed to manage item inventory, enhancing workflow for system 
 
 ---
 
-## Database Schema
+## 🗃️ Database Schema
 
-The items table structure:
+The `items` table structure:
 
-id               - INTEGER  - Primary Key                             
-owner_id         - INTEGER  - ID of the item's owner                  
-item_package_num - TEXT     - Item package number                     
-item_num         - TEXT     - Item number                             
-client_phone     - TEXT     - Client's phone number                   
-photo            - BLOB     - Photo of the item                       
-send_date        - TEXT     - Date item was sent                      
-receive_date     - TEXT     - Date item was received                  
-pickup_date      - TEXT     - Date item was picked up                 
-status           - TEXT     - Status of item (default: Not Picked Up) 
-payment_status   - TEXT     - Payment status (default: Pending)       
+| Column             | Type     | Description                              |
+|--------------------|----------|------------------------------------------|
+| `id`               | INTEGER  | Primary Key                              |
+| `owner_id`         | INTEGER  | ID of the item's owner                   |
+| `item_package_num` | TEXT     | Item package number                      |
+| `item_num`         | TEXT     | Item number                              |
+| `client_phone`     | TEXT     | Client's phone number                    |
+| `photo`            | BLOB     | Photo of the item                        |
+| `send_date`        | TEXT     | Date item was sent                       |
+| `receive_date`     | TEXT     | Date item was received                   |
+| `pickup_date`      | TEXT     | Date item was picked up                  |
+| `status`           | TEXT     | Status of item (default: Not Picked Up)  |
+| `payment_status`   | TEXT     | Payment status (default: Pending)        |      
 
 ---
 
