@@ -28,8 +28,9 @@ A Telegram bot designed to manage item inventory, enhancing workflow for system 
 2. Install Dependencies
 
    pip install pyTelegramBotAPI requests
+   pip install telebot
 
-3. Set Up Database
+4. Set Up Database
 
    Run the database setup script:
 
@@ -37,12 +38,12 @@ A Telegram bot designed to manage item inventory, enhancing workflow for system 
 
    This creates the `item_control.db` database with the `items` table.
 
-4. Configure Telegram Bot
+5. Configure Telegram Bot
 
    - Obtain a bot token from BotFather: https://core.telegram.org/bots#botfather
    - Replace 'YOUR_TELEGRAM_BOT_API_KEY' in main.py with your token.
 
-5. Run the Bot
+6. Run the Bot
 
    python main.py
 
